@@ -23,9 +23,9 @@ public class main {
         }
         System.out.println("The most appearing letter is '" + character + "' with a frequency of " + max + " times");
 
-        /* Algorithm Complexity with "n" is input string length is:
+        /* Algorithm Complexity with n is input string length is:
         Case n > 255: O(n)
-        Case n < 255: O(255)
+        Case n <= 255: O(255)
          */
     }
 }
